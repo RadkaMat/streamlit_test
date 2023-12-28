@@ -23,3 +23,6 @@ with formular:
 st.title('Nový úkol +')
 st.text_input(label='', placeholder='Zadej nový úkol... [pro potvrzení stiskněte tlačítko Enter]',
               on_change=funkce.pridat_ukol, key='Nový úkol')
+
+# kontrola: zobrazí všechny prvky streamlit aplikace
+st.session_state
