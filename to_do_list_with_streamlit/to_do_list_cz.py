@@ -1,5 +1,5 @@
 import streamlit as st
-import vsechny_funkce.to_do_list_functions_cz as funkce
+import to_do_list_functions_cz as funkce
 from datetime import datetime
 
 
